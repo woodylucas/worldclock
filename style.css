@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url("./clock-pattern.png");
+  background: #000033;
 }
 
 .main {
@@ -16,10 +16,39 @@ body {
   height: 175px;
   margin: 100px auto;
   position: relative;
+  padding: 30px;
 }
 
+.main-2 {
+  background: #ccc;
+  width: 400px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+}
+
+.main-3 {
+  background: #ccc;
+  width: 400px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+}
+
+.main-4 {
+  background: #ccc;
+  width: 400px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+}
+
+
 .badge {
-  width: 115px;
+  width: 130px;
   background: #e66357;
   color: white;
   padding: 5px 10px
@@ -27,11 +56,80 @@ body {
   font-weight: bold;
   position: absolute;
   top: -15px;
-  left: 40%;
+  left: 35%;
+}
+
+.badge-2 {
+  width: 130px;
+  background: blue;
+  color: white;
+  padding: 5px 10px
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: 35%;
+}
+
+.badge-3 {
+  width: 115px;
+  background: green;
+  color: white;
+  padding: 5px 10px
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: 37%;
+}
+
+.badge-4 {
+  width: 140px;
+  background: orange;
+  color: white;
+  padding: 5px 10px
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: 35%;
 }
 
 .clock {
-  background: white;
+  background: #EBEBEB;
+  text-align: center;
+  font-size: 55px;
+  height: 100%;
+  padding-top: 35px;
+  font-family: Orbitron;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.clock-2 {
+  background: #EBEBEB;
+  text-align: center;
+  font-size: 55px;
+  height: 100%;
+  padding-top: 35px;
+  font-family: Orbitron;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.clock-3 {
+  background: #EBEBEB;
+  text-align: center;
+  font-size: 55px;
+  height: 100%;
+  padding-top: 35px;
+  font-family: Orbitron;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.clock-4 {
+  background: #EBEBEB;
   text-align: center;
   font-size: 55px;
   height: 100%;
