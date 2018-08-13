@@ -46,6 +46,24 @@ body {
   padding: 30px;
 }
 
+.main-5 {
+  background: #ccc;
+  width: 400px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+}
+
+.main-6 {
+  background: #ccc;
+  width: 400px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+
+}
 
 .badge {
   width: 130px;
@@ -92,7 +110,31 @@ body {
   font-weight: bold;
   position: absolute;
   top: -15px;
-  left: 35%;
+  left: 33%;
+}
+
+.badge-5 {
+  width: 100px;
+  background: pink;
+  color: white;
+  padding: 5px 10px
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: 38%;
+}
+
+.badge-6 {
+  width: 150px;
+  background: red;
+  color: white;
+  padding: 5px 10px
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: 30%;
 }
 
 .clock {
@@ -129,6 +171,28 @@ body {
 }
 
 .clock-4 {
+  background: #EBEBEB;
+  text-align: center;
+  font-size: 55px;
+  height: 100%;
+  padding-top: 35px;
+  font-family: Orbitron;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.clock-5 {
+  background: #EBEBEB;
+  text-align: center;
+  font-size: 55px;
+  height: 100%;
+  padding-top: 35px;
+  font-family: Orbitron;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.clock-6 {
   background: #EBEBEB;
   text-align: center;
   font-size: 55px;
