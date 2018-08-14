@@ -66,7 +66,7 @@ body {
 }
 
 .badge {
-  width: 130px;
+  width: 140px;
   background: #e66357;
   color: white;
   padding: 5px 10px
@@ -78,7 +78,7 @@ body {
 }
 
 .badge-2 {
-  width: 130px;
+  width: 123px;
   background: blue;
   color: white;
   padding: 5px 10px
@@ -90,19 +90,19 @@ body {
 }
 
 .badge-3 {
-  width: 115px;
-  background: green;
+  width: 60px;
+  background: red;
   color: white;
   padding: 5px 10px
   font-family: sans-serif;
   font-weight: bold;
   position: absolute;
   top: -15px;
-  left: 37%;
+  left: 40%;
 }
 
 .badge-4 {
-  width: 140px;
+  width: 100px;
   background: orange;
   color: white;
   padding: 5px 10px
@@ -110,19 +110,19 @@ body {
   font-weight: bold;
   position: absolute;
   top: -15px;
-  left: 33%;
+  left: 35%;
 }
 
 .badge-5 {
-  width: 100px;
-  background: pink;
+  width: 62px;
+  background: green;
   color: white;
   padding: 5px 10px
   font-family: sans-serif;
   font-weight: bold;
   position: absolute;
   top: -15px;
-  left: 38%;
+  left: 40%;
 }
 
 .badge-6 {

@@ -7,6 +7,9 @@ var mins = fullDate.getMinutes();
 var secs = fullDate.getSeconds();
 
 
+//var pacificTime = hours.getTimezoneOffset("America/Los_Angeles");
+
+
 if (hours.length < 10 ) {
   hours = "0" + hours;
 }
@@ -20,16 +23,16 @@ if (hours.length < 10 ) {
 document.getElementById('hour').innerHTML = hours;
 document.getElementById('minute').innerHTML = ":" + mins;
 document.getElementById('second').innerHTML = ":" + secs;
-document.getElementById('hour-2').innerHTML = hours - 1;
+document.getElementById('hour-2').innerHTML = hours + 6;
 document.getElementById('minute-2').innerHTML = ":" + mins;
 document.getElementById('second-2').innerHTML = ":" + secs;
-document.getElementById('hour-3').innerHTML = hours - 3;
+document.getElementById('hour-3').innerHTML = hours + 12;
 document.getElementById('minute-3').innerHTML = ":" + mins;
 document.getElementById('second-3').innerHTML = ":" + secs;
-document.getElementById('hour-4').innerHTML = hours - 2;
+document.getElementById('hour-4').innerHTML = hours + 14;
 document.getElementById('minute-4').innerHTML = ":" + mins;
 document.getElementById('second-4').innerHTML = ":" + secs;
-document.getElementById('hour-5').innerHTML = hours - 6;
+document.getElementById('hour-5').innerHTML = hours + 1;
 document.getElementById('minute-5').innerHTML = ":" + mins;
 document.getElementById('second-5').innerHTML = ":" + secs;
 document.getElementById('hour-6').innerHTML = hours + 5;
