@@ -1,44 +1,46 @@
-
-//ES6 of Clock
 function clock () {
-var fullDate = new Date();
+//ES6 of Clock
+const fullDate = new Date();
 var hours = fullDate.getHours();
 var mins = fullDate.getMinutes();
 var secs = fullDate.getSeconds();
+var egypt = hours + 6;
+var china = hours + 12;
+var australia = hours + 14
+var brazil = hours + 1;
+var uk = hours + 5;
 
 
-//var pacificTime = hours.getTimezoneOffset("America/Los_Angeles");
-
-
-if (hours.length < 10 ) {
+//To place a zero in front of the clock, conditional statment.
+if (hours < 10 ) {
   hours = "0" + hours;
 }
-if (hours.length < 10 ) {
-  hours = "0" + mins;
+if (mins < 10 ) {
+  mins = "0" + mins;
 }
-if (hours.length < 10 ) {
-  hours = "0" + secs;
+if (secs < 10 ) {
+  secs = "0" + secs;
 }
-
+//Use of DOM to make a HTML Reference point.
 document.getElementById('hour').innerHTML = hours;
 document.getElementById('minute').innerHTML = ":" + mins;
 document.getElementById('second').innerHTML = ":" + secs;
-document.getElementById('hour-2').innerHTML = hours + 6;
+document.getElementById('hour-2').innerHTML = egypt;
 document.getElementById('minute-2').innerHTML = ":" + mins;
 document.getElementById('second-2').innerHTML = ":" + secs;
-document.getElementById('hour-3').innerHTML = hours + 12;
+document.getElementById('hour-3').innerHTML = china;
 document.getElementById('minute-3').innerHTML = ":" + mins;
 document.getElementById('second-3').innerHTML = ":" + secs;
-document.getElementById('hour-4').innerHTML = hours + 14;
+document.getElementById('hour-4').innerHTML = australia;
 document.getElementById('minute-4').innerHTML = ":" + mins;
 document.getElementById('second-4').innerHTML = ":" + secs;
-document.getElementById('hour-5').innerHTML = hours + 1;
+document.getElementById('hour-5').innerHTML = brazil;
 document.getElementById('minute-5').innerHTML = ":" + mins;
 document.getElementById('second-5').innerHTML = ":" + secs;
-document.getElementById('hour-6').innerHTML = hours + 5;
+document.getElementById('hour-6').innerHTML = uk;
 document.getElementById('minute-6').innerHTML = ":" + mins;
 document.getElementById('second-6').innerHTML = ":" + secs;
 
 }
 
-setInterval(clock,100);
+setInterval(clock, 100);
