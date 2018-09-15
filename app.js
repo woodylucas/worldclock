@@ -4,11 +4,11 @@ const fullDate = new Date();
 var hours = fullDate.getHours();
 var mins = fullDate.getMinutes();
 var secs = fullDate.getSeconds();
-var egypt = hours + 6;
-var china = hours + 12;
-var australia = hours + 14
-var brazil = hours + 1;
-var uk = hours + 5;
+var egypt = hours + 6 - 24;
+var china = hours + 12 - 24;
+var australia = hours + 14 - 24;
+var brazil = hours + 1 - 24;
+var uk = hours + 5 - 24;
 
 
 //To place a zero in front of the clock, conditional statment.
@@ -21,6 +21,8 @@ if (mins < 10 ) {
 if (secs < 10 ) {
   secs = "0" + secs;
 }
+
+
 //Use of DOM to make a HTML Reference point.
 document.getElementById('hour').innerHTML = hours;
 document.getElementById('minute').innerHTML = ":" + mins;
